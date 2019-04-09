@@ -17,18 +17,13 @@
       border-radius: 20px;      
       
     }
-    html, body {
-     height: 100%;
-     margin: 0%;
-    }
+    
     body {
       
       font-family: Helvetica, sans-serif;
       margin:0%;
-      background: linear-gradient(45deg, #000000, #131313);
-      background-repeat: no-repeat;
-      background-size: auto,cover;
-      background-position: top left, center;
+      background: rgb(28, 89, 255);
+    
 
     }
     #demo, #demo2, #angler{
@@ -177,7 +172,7 @@
          function resizeSim() {
           var viewportHeight= document.documentElement.clientHeight;
           var SimElement = document.querySelector(".container");
-          newsize=viewportHeight/950;
+          newsize=viewportHeight/1000;
           console.log(newsize);
           SimElement.style.setProperty('--size', newsize)
          }
