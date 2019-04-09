@@ -1,0 +1,131 @@
+:root{
+     --size: 1;
+   }   
+    .container{
+      display: inline-block;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      
+      -webkit-transform: translate(-50%,-50%) scale( var(--size) );
+      transform: translate(-50%,-50%) scale(--size);
+      box-shadow: 0px 30px 110px rgba(0, 0, 0, 0.5);
+      border-radius: 20px;      
+      
+    }
+    body {
+      font-family: Helvetica, sans-serif;
+      margin:0%;
+      background: #242038;
+      background: #306BAC;
+      background: #242038;
+      background: #022B3A;
+      background: #1F7A8C;
+      /*background: #D6D6B1;*/
+     
+
+    }
+    #demo, #demo2, #angler{
+      font-weight: bold;
+      color: black;
+      background: white;
+      padding: 1%;
+      margin:1%;
+      border-radius: 20%;
+    }
+    .controls-container {
+     
+     width: 400px;
+     background: linear-gradient(#56CCF2,#2F80ED);
+     padding: 4% 10% 2% 10% ;
+     font-weight: bold;
+     font-size: .8em;
+     box-sizing: border-box;
+     margin-top: -20px;
+     border-radius: 0 0 20px 20px; 
+
+    }
+    .slidecontainer {
+    width: 100%;
+    }
+    .sim-container svg {
+    position: relative;
+    height:400px;
+    width: 400px;
+    border-radius: 20px;
+    background: #ffffff;
+    
+    text-align: center;
+    -webkit-transition: 1s;
+    transition: box-shadow 0.3s ease-in-out;
+    
+    }
+    .sim-container{
+      
+     /* background: #4CAF50;*/
+      
+      margin: 0px;
+     
+      
+    } 
+    
+  
+    
+    .slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    background: #ffffff;
+    outline: none;
+    opacity: 1;
+    
+    }
+    .slidecontainer{
+      line-height: 2em;
+      color: white;
+    }
+    
+    
+    .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 45px;
+    height: 45px;
+    border-radius: 10%;
+    background: orange;
+    opacity: 1;
+    cursor: pointer;
+    }
+    
+    .slider::-moz-range-thumb {
+      width: 45px;
+    height: 45px;
+    border-radius: 10%;
+    background: orange;
+    opacity: 1;
+    cursor: pointer;
+    
+    }
+    .created-by {
+      text-align: right;
+      font-weight: 300;
+      font-size: 1.5em;
+      color: white;
+      text-shadow: 0px 0px 5px black;
+      padding-right: 2%;
+      margin-bottom: 0;
+    }
+    a{
+      text-decoration: none;
+      color: rgb(255, 196, 0);
+    }
+    h4
+    {
+      text-align: right;
+      color: white;
+      margin-right: 2%;
+      font-weight: bold;
+      font-size: 0.8em;
+    }  
+   
