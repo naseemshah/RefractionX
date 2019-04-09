@@ -1,5 +1,8 @@
 # RefractionX
 RefractionX is an interactive simulation on Refraction made using HTML, CSS and JavaScript. The simulation is easy to use because of its nice UI and it is interactive.
+
+live working demo : https://naseemshah.github.io/RefractionX/
+
 ## Screeshot
 ![alt text](https://github.com/naseemshah/RefractionX/blob/master/Screenshot%20(55).png?raw=true)
 ## Usage
