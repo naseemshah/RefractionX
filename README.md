@@ -12,7 +12,7 @@ The simulation contains two part
 2. Control Panel
 
 Control panel contains sliders where you can control refractive index and incident angle. The resulting change is shown on the simulation preview. also yopu can see the corresponding angles on white round rectangles in control panel itself.
-
+jovin edited this
 
 
 ********************************* Thank You! **************************************
